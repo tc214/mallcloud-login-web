@@ -20,13 +20,13 @@ module.exports = {
         }
       },
 
-      '/tsc': {
-        target: 'http://localhost:31016/',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/tsc': '/tsc'
-        }
-      },
+      // '/tsc': {
+      //   target: 'http://localhost:31016/',
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/tsc': '/tsc'
+      //   }
+      // },
 
     },
 
@@ -34,7 +34,7 @@ module.exports = {
 
     // Various Dev Server settings
     host: 'passport.tc.com', // can be overwritten by process.env.HOST 192.168.43.117
-    port: 11000, // can be overwritten by process.env.PORT, if port is in use, a fre
+    port: 11008, // can be overwritten by process.env.PORT, if port is in use, a fre
     // host: 'localhost',// e one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
